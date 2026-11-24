@@ -21,9 +21,16 @@ A small app that lists students as cards and lets you search, filter, add and de
 - Vite 8 (dev server + production build)
 - Plain CSS, no UI library
 
-## How to run
+## Live demo
+
+https://mz128675-afk.github.io/react-student-directory/
+
+The live demo is the built site (at the repo root). The full React source is in the `source/` folder.
+
+## How to run (source)
 
 ```bash
+cd source
 npm install
 npm run dev
 ```
@@ -33,11 +40,8 @@ Then open the local address Vite prints (usually http://localhost:5173).
 ## Build for production
 
 ```bash
+cd source
 npm run build
 ```
 
-The build output goes to `dist/`. The Vite config uses `base: './'` so the built site works on GitHub Pages under a sub-path.
-
-## Live demo
-
-The live demo will be on GitHub Pages once the repo is uploaded (upload is approval-gated — nothing is pushed automatically).
+The build output goes to `source/dist/`. The Vite config uses `base: './'` so the built site works on GitHub Pages under a sub-path.
